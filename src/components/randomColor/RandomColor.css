@@ -1,16 +1,24 @@
 
 .color-change1{
     border: 1px solid black;
-    width: 100px;
+    width: 800px;
     height: 100px;
     background-color: black;
     margin-left: 400px;
+    margin-bottom: 20px;
 }
 
 .color-change2{
     border: 1px solid black;
-    width: 100px;
+    width: 800px;
     height: 100px;
     background-color: black;
     margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.button-div > button {
+    font-size: large;
+    margin: 20px;
+    padding: 2px;
 }

@@ -25,7 +25,7 @@ function changeRGB(num){
 
  return(
    <>
-    <div>
+    <div className="button-div">
       <button onClick={changeHEX}>Random Hex color </button>
       <button onClick={()=> changeRGB(256)}>Random RGB color </button>
       <button  onClick={()=> {
