@@ -2,6 +2,7 @@ import './App.css';
 import Accordion from './components/accordion/Accordion';
 import RandomColor from './components/randomColor/RandomColor';
 import StarRating from "./components/starRating/StarRating"
+import Carousel from "./components/carousel/Carousel"
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       < RandomColor />
       <h2> Star Rating</h2>
       < StarRating/>
+      <h2>Carousel</h2>
+        <Carousel/>
     </div>
   );
 }
