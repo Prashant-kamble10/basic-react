@@ -3,6 +3,8 @@ import Accordion from './components/accordion/Accordion';
 import RandomColor from './components/randomColor/RandomColor';
 import StarRating from "./components/starRating/StarRating"
 import Carousel from "./components/carousel/Carousel"
+import InfiniteScroll from './components/infiniteScroll/InfiniteScroll';
+import TreeMenu from './components/treeMenu/TreeMenu';
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
       < StarRating/>
       <h2>Carousel</h2>
         <Carousel/>
+        <h2>InfiniteScroll</h2>
+        <InfiniteScroll />
+        <h2>Tree view/ Menu UI/ Recursive navigation</h2>
+        <TreeMenu />
     </div>
   );
 }
