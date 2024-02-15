@@ -1,13 +1,20 @@
+import menus from "./TreeData";
+import TreeStructure from "./TreeStructure";
+import "./TreeMenu.css";
 
-
-
-const TreeMenu = () =>{
-
-    return(
-        <>
-        <h2>Tree Menu </h2>
-        </>
-    )
-}
+const TreeMenu = () => {
+  return (
+    <>
+      {menus.map((data, index) => {
+        return (
+          <>
+            <TreeStructure key={index} data={data}/>
+          
+          </>
+        );
+      })}
+    </>
+  );
+};
 
 export default TreeMenu;

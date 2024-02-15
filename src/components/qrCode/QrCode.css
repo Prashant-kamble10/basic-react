@@ -1,0 +1,19 @@
+.general > input{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.general > button{
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.general{
+    margin-top: 5px;
+}
+
+.qrcode{
+    margin-top: 15px;
+}

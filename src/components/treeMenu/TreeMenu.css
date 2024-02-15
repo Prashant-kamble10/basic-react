@@ -1,0 +1,31 @@
+.menu {
+  margin-left: 0;
+  width: 250px;
+  height: 80vh;
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.button > button{
+  background-color: aqua;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(109, 204, 204);
+}
+
+
+.sub-menu{
+  padding-left: 20px;
+}
+
+.sub-menu-collapse{
+  display: none;
+}
