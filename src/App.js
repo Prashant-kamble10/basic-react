@@ -8,10 +8,13 @@ import TreeMenu from './components/treeMenu/TreeMenu';
 import "./components/treeMenu/TreeMenu.css"
 import QrCodeIndex from './components/qrCode/QrCodeIndex';
 import DarkModeIndex from "./components/darkMode/DarkModeIndex";
+import ScrollDisplay from "./components/scroll_Display/ScrollDisplay"
 
 function App() {
   return (
     <div className="App">
+      
+        <ScrollDisplay />
       <h2>1. Accordion</h2>
       < Accordion />
       <h2>2. Random Color</h2>
@@ -30,6 +33,7 @@ function App() {
        <QrCodeIndex />
        <h2>8. Light & Dark Mode/ Theme Switch</h2>
         <DarkModeIndex />
+        <h2>9. Scroll Indicator</h2>
     </div>
   );
 }
