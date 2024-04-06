@@ -5,10 +5,14 @@ import StarRating from "./components/starRating/StarRating"
 import Carousel from "./components/carousel/Carousel"
 import InfiniteScroll from './components/infiniteScroll/InfiniteScroll';
 import TreeMenu from './components/treeMenu/TreeMenu';
-import "./components/treeMenu/TreeMenu.css"
+import "./components/treeMenu/TreeMenu.css";
 import QrCodeIndex from './components/qrCode/QrCodeIndex';
 import DarkModeIndex from "./components/darkMode/DarkModeIndex";
-import ScrollDisplay from "./components/scroll_Display/ScrollDisplay"
+import ScrollDisplay from "./components/scroll_Display/ScrollDisplay";
+import TabChange from './components/tabChange/TabChange';
+import BoxPopup from './components/boxPopup/BoxPopup';
+
+
 
 function App() {
   return (
@@ -34,6 +38,10 @@ function App() {
        <h2>8. Light & Dark Mode/ Theme Switch</h2>
         <DarkModeIndex />
         <h2>9. Scroll Indicator</h2>
+        <h2>10. Tab change</h2>
+        <TabChange />
+        <h2>11. Modal Popup/Box Popup</h2>
+        <BoxPopup />
     </div>
   );
 }
