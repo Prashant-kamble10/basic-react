@@ -1,0 +1,17 @@
+
+
+
+.popup-box{
+    border: 1px solid black;
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 10px;
+    background-color: blanchedalmond;
+}
+
+.x-button{
+    margin-left: 250px;
+    font-size: large;
+}

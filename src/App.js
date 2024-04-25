@@ -11,6 +11,7 @@ import DarkModeIndex from "./components/darkMode/DarkModeIndex";
 import ScrollDisplay from "./components/scroll_Display/ScrollDisplay";
 import TabChange from './components/tabChange/TabChange';
 import BoxPopup from './components/boxPopup/BoxPopup';
+import ProfileFinder from "./components/githubProfile/ProfileFinder"
 
 
 
@@ -42,6 +43,8 @@ function App() {
         <TabChange />
         <h2>11. Modal Popup/Box Popup</h2>
         <BoxPopup />
+        <h2>12. Find Github Profile</h2>
+        <ProfileFinder />
     </div>
   );
 }
