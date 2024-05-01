@@ -11,7 +11,8 @@ import DarkModeIndex from "./components/darkMode/DarkModeIndex";
 import ScrollDisplay from "./components/scroll_Display/ScrollDisplay";
 import TabChange from './components/tabChange/TabChange';
 import BoxPopup from './components/boxPopup/BoxPopup';
-import ProfileFinder from "./components/githubProfile/ProfileFinder"
+import ProfileFinder from "./components/githubProfile/ProfileFinder";
+import SearchAutocomplete from './components/searchAutoComplete/SearchAutoComplete';
 
 
 
@@ -45,6 +46,8 @@ function App() {
         <BoxPopup />
         <h2>12. Find Github Profile</h2>
         <ProfileFinder />
+        <h2>13. Search Auto Complete</h2>
+        <SearchAutocomplete />
     </div>
   );
 }

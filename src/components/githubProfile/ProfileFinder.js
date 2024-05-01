@@ -12,15 +12,15 @@ const ProfileFinder = () => {
   async function fetchData() {
     try {
       const response = await fetch(`https://api.github.com/users/${clicked}`);
-      console.log('clicked: ', clicked);
+      // console.log('clicked: ', clicked);
      
 
       const fetchedData = await response.json();
-      console.log('fetchedData: ', fetchedData);
+      // console.log('fetchedData: ', fetchedData);
       setData(fetchedData);
       
     } catch (error) {
-      console.error("Error fetching data:", error);
+      // console.error("Error fetching data:", error);
       
     }
   }
