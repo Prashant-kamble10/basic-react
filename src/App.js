@@ -13,6 +13,7 @@ import TabChange from './components/tabChange/TabChange';
 import BoxPopup from './components/boxPopup/BoxPopup';
 import ProfileFinder from "./components/githubProfile/ProfileFinder";
 import SearchAutocomplete from './components/searchAutoComplete/SearchAutoComplete';
+import TicTac from "./components/ticTac/TicTac"
 
 
 
@@ -48,6 +49,8 @@ function App() {
         <ProfileFinder />
         <h2>13. Search Auto Complete</h2>
         <SearchAutocomplete />
+        <h2>14. Tick Tac Toe</h2>
+        <TicTac />
     </div>
   );
 }

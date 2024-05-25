@@ -45,7 +45,7 @@ const SearchAutocomplete = () =>{
         }
       } catch (error) {
         setLoading(false);
-        console.log(error);
+        // console.log(error);
         setError(error);
       }
     }
@@ -54,7 +54,7 @@ const SearchAutocomplete = () =>{
       fetchListOfUsers();
     }, []);
   
-    console.log(users, filteredUsers);
+    // console.log(users, filteredUsers);
   
     return (
       <div className="search-autocomplete-container">
