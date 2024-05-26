@@ -13,8 +13,9 @@ import TabChange from './components/tabChange/TabChange';
 import BoxPopup from './components/boxPopup/BoxPopup';
 import ProfileFinder from "./components/githubProfile/ProfileFinder";
 import SearchAutocomplete from './components/searchAutoComplete/SearchAutoComplete';
-import TicTac from "./components/ticTac/TicTac"
-
+import TicTac from "./components/ticTac/TicTac";
+import ConfigurationDrivenUI from './components/configurationDrivenUI/ConfigurationDrivenUI';
+import ConfigDrivenGlobalState from './components/configurationDrivenUI/context/Index';
 
 
 function App() {
@@ -51,6 +52,10 @@ function App() {
         <SearchAutocomplete />
         <h2>14. Tick Tac Toe</h2>
         <TicTac />
+        <h2>15. Config Driven using Context Api</h2>
+        <ConfigDrivenGlobalState  >
+          <ConfigurationDrivenUI />
+        </ConfigDrivenGlobalState>
     </div>
   );
 }
