@@ -24,11 +24,11 @@
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: #86bbf3
+    background-color:   #1e82ee
 }
 
 .load-more:hover{
   box-shadow: 5px;
   cursor: pointer;
-  background-color: #1e82ee
+  background-color:#86bbf3
 }

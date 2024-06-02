@@ -16,7 +16,8 @@ import SearchAutocomplete from './components/searchAutoComplete/SearchAutoComple
 import TicTac from "./components/ticTac/TicTac";
 import ConfigurationDrivenUI from './components/configurationDrivenUI/ConfigurationDrivenUI';
 import ConfigDrivenGlobalState from './components/configurationDrivenUI/context/Index';
-
+import Test from './components/customHooks/Test';
+import Test2 from './components/customHooks/Test2';
 
 function App() {
   return (
@@ -54,8 +55,13 @@ function App() {
         <TicTac />
         <h2>15. Config Driven using Context Api</h2>
         <ConfigDrivenGlobalState  >
-          <ConfigurationDrivenUI />
+          <ConfigurationDrivenUI />  
         </ConfigDrivenGlobalState>
+
+        <h2>16. Custom Hooks used for fetching multiple data</h2>
+        <Test/> 
+        ------------------------------------------------------------------------------------------------
+        <Test2 />
     </div>
   );
 }
