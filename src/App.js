@@ -19,12 +19,17 @@ import ConfigDrivenGlobalState from './components/configurationDrivenUI/context/
 import Test from './components/customHooks/Test';
 import Test2 from './components/customHooks/Test2';
 import Counter from './components/counter/Counter';
+import Index from"./components/scrollTopBottom/Index"
+import Section from "./components/particularSection/Section"
+
 
 function App() {
+
   return (
     <div className="App">
+       
+        {/* <ScrollDisplay />
       
-        <ScrollDisplay />
       <h2>1. Accordion</h2>
       < Accordion />
       <h2>2. Random Color</h2>
@@ -65,7 +70,11 @@ function App() {
         <Test2 />
 
         <h2>17. Counter</h2>
-        <Counter />
+        <Counter /> 
+        <h2>Scroll Top/Bottom</h2>
+       <Index />
+       <h2>Scroll to particular section</h2>
+       <Section/> */}
     </div>
   );
 }
