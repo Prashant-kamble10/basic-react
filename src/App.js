@@ -18,6 +18,7 @@ import ConfigurationDrivenUI from './components/configurationDrivenUI/Configurat
 import ConfigDrivenGlobalState from './components/configurationDrivenUI/context/Index';
 import Test from './components/customHooks/Test';
 import Test2 from './components/customHooks/Test2';
+import Counter from './components/counter/Counter';
 
 function App() {
   return (
@@ -62,6 +63,9 @@ function App() {
         <Test/> 
         ------------------------------------------------------------------------------------------------
         <Test2 />
+
+        <h2>17. Counter</h2>
+        <Counter />
     </div>
   );
 }
